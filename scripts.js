@@ -18,5 +18,3 @@ let appData = {
     appData.expenses[exps2] = prompt('Во сколько обойдется?', '');
 
     alert (`Вам понадобится ${appData.expenses[exps1]/30} рублей в день для ${exps1}\n и ${appData.expenses[exps2]/30} рублей в день для ${exps2}`);
-question();
-question();
